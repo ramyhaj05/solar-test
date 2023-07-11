@@ -9,9 +9,9 @@ export default function HeaderImage (){
             }}>
                 <div className="flex flex-col h-full bg-sky-500/70">
                     <div className="text-white h-full">
-                        <div className="flex justify-between p-3 text-2xl font-bold tracking-wide w-full">
+                        <div className="flex justify-center md:justify-between p-3 text-2xl font-bold tracking-wide w-full">
                             <div className="bg-blue-500 p-1 px-3 rounded text-white">Solar<span className="font-normal text-yellow-300">Energy</span></div>
-                            <div className="p-1 px-3 rounded text-white-500 text-md font-normal">For more info contact us today!</div>
+                            <div className="p-1 px-3 rounded text-white-500 text-md font-normal md:block hidden">For more info contact us today!</div>
                         </div>
                         <div className="h-full flex flex-col justify-center">
                             <div className="w-full flex justify-center">
