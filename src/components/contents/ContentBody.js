@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Battery100Icon, BoltIcon, CurrencyDollarIcon, GlobeAsiaAustraliaIcon, HomeIcon } from '@heroicons/react/24/solid'
 export default function ContentBody(){
-    const [dataContent, setDataContent] = useState([
+    const dataContent = [
         {
             id:"1",
             title: "Re-newable Energy",
@@ -27,7 +27,7 @@ export default function ContentBody(){
             title: "Increased Property Value",
             content: "Investing in solar panels not only offers immediate benefits but also increases the value of your property. Many homebuyers seek out eco-friendly features like solar power, making your home more attractive and marketable.",
         },
-    ])
+    ]
     return(
         <div className="py-3 flex justify-center md:px-0 px-10 mt-10 flex-wrap">
             <div className="w-full pb-10 text-6xl font-bold text-sky-500">BENEFITS OF SOLAR PANELS</div><br></br>

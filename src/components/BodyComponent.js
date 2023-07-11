@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ContentTitle from "./contents/ContentTitle";
 import ContentBody from "./contents/ContentBody";
 
