@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Battery100Icon, BoltIcon, CurrencyDollarIcon, GlobeAsiaAustraliaIcon, HomeIcon } from '@heroicons/react/24/solid'
 export default function ContentBody(){
     const dataContent = [
