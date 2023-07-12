@@ -19,7 +19,7 @@ export default function SecondContentBody ({id, title, body, imglink ,reverse}){
             </div>
             <div className={"w-full md:w-1/2 flex  justify-center order-1 " + secondcol}>
                 <div className=" w-2/3 h-auto md:h-96 w-full flex justify-center p-5 bg-white ">
-                    <img src={imglink} className="h-full w-fit" />
+                    <img alt={title} src={imglink} className="h-full w-fit" />
                 </div>
             </div>
         </>
